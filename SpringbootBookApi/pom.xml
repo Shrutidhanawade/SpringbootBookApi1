@@ -52,6 +52,10 @@
 			</plugin>
 		</plugins>
 	</build>
+
+<scm>
+<connection>scm:git:ssh://git@github.com:Shrutidhanawade/SpringbootBookApi1.git </connection>
+</scm>
    <distributionManagement>
     <repository>
         <id>central</id>
