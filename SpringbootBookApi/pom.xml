@@ -45,6 +45,9 @@
 		
 		
 	</dependencies>
+         <scm>
+         <connection>scm:git:ssh://git@github.com:Shrutidhanawade/SpringbootBookApi1.git </connection>
+         </scm>
 
 	<build>
 		<plugins>
@@ -53,16 +56,21 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
                         <plugin>
-				 <groupId>org.apache.maven.plugins</groupId>
-                                 <artifactId>maven-release-plugin</artifactId>
-                                  <version>3.0.1</version>
-			</plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.2</version>
+        <configuration>
+          ...
+          <tagBase>
+
+          </tagBase>
+          ...
+        </configuration>
+      </plugin>
+      ...
 		</plugins>
 	</build>
 
-<scm>
-<connection>scm:git:ssh://git@github.com:Shrutidhanawade/SpringbootBookApi1.git </connection>
-</scm>
+
    <distributionManagement>
     <repository>
         <id>central</id>
