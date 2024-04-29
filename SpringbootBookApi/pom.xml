@@ -79,13 +79,18 @@
    <distributionManagement>
     <repository>
         <id>central</id>
-        <name>localhost.localdomain-releases</name>
-        <url>http://192.168.75.136:8081/artifactory/libs-release-local</url>
+        <name>a0goe9zlaqy0u-artifactory-primary-0-releases</name>
+        <url>https://amrutsoftwareshrutidhanwade.jfrog.io/artifactory/libs-release-local</url>
     </repository>
-   <snapshotRepository>
+    <snapshotRepository>
         <id>snapshots</id>
-        <name>localhost.localdomain-snapshots</name>
-        <url>http://192.168.75.136:8081/artifactory/libs-snapshot-local</url>
+        <name>a0goe9zlaqy0u-artifactory-primary-0-snapshots</name>
+        <url>https://amrutsoftwareshrutidhanwade.jfrog.io/artifactory/libs-release-local</url>
+    </snapshotRepository>
+	   <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0goe9zlaqy0u-artifactory-primary-0-snapshots</name>
+        <url>https://amrutsoftwareshrutidhanwade.jfrog.io/artifactory/libs-snap-local</url>
     </snapshotRepository>
 </distributionManagement>
 
