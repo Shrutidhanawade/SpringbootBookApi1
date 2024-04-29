@@ -75,8 +75,7 @@
 		</plugins>
 	</build>
 
-
-   <distributionManagement>
+  <distributionManagement>
     <repository>
         <id>central</id>
         <name>a0goe9zlaqy0u-artifactory-primary-0-releases</name>
@@ -87,11 +86,8 @@
         <name>a0goe9zlaqy0u-artifactory-primary-0-snapshots</name>
         <url>https://amrutsoftwareshrutidhanwade.jfrog.io/artifactory/libs-release-local</url>
     </snapshotRepository>
-	   <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0goe9zlaqy0u-artifactory-primary-0-snapshots</name>
-        <url>https://amrutsoftwareshrutidhanwade.jfrog.io/artifactory/libs-snap-local</url>
-    </snapshotRepository>
 </distributionManagement>
+
+  
 
 </project>
