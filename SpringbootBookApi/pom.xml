@@ -61,9 +61,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
                         <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-release-plugin</artifactId>
+                 <version>3.0.1</version>
                 <configuration>
                     <goals>pre-integration-test</goals>
                     <preparationGoals>package</preparationGoals>
