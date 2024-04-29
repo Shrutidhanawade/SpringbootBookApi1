@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.Springboot</groupId>
 	<artifactId>SpringbootBookApi</artifactId>
-	<version>3</version>
+	<version>4-SNAPSHOT</version>
 	<name>SpringbootBookApi</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
