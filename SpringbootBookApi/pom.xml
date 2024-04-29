@@ -19,7 +19,7 @@
         <connection>scm:git:git@github.com:Shrutidhanawade/SpringbootBookApi1.git</connection>
         <developerConnection>scm:git:git@github.com:Shrutidhanawade/SpringbootBookApi1.git</developerConnection>
         <url>https://github.com/Shrutidhanawade/SpringbootBookApi1</url>
-        <tag>1</tag>
+        <tag>@{project.version}</tag>
     </scm>
 
 	<dependencies>
